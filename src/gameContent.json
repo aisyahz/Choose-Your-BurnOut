@@ -1,0 +1,180 @@
+{
+  "paths": [
+    {
+      "id": "corporate",
+      "title": "The Corporate Labyrinth",
+      "shortDescription": "Standard issue optimization."
+    },
+    {
+      "id": "startup",
+      "title": "The Disruptive Alchemist",
+      "shortDescription": "Burn fast. Scale nothing."
+    },
+    {
+      "id": "freelance",
+      "title": "The Freelance Mirage",
+      "shortDescription": "Total freedom. Zero safety."
+    },
+    {
+      "id": "academic",
+      "title": "The Academic Basement",
+      "shortDescription": "Infinite research. Finite life."
+    },
+    {
+      "id": "gig",
+      "title": "The Gig Economy Engine",
+      "shortDescription": "Human as a service."
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "pathId": "corporate",
+      "description": "11:45 PM. Slack pings. The VP wants a 'quick sync' on the Q3 deck. You know they're just lonely and want someone to witness their power at midnight.",
+      "choices": [
+        { "text": "Accept. Sleep is a luxury.", "statEffects": { "energy": -15, "sanity": -10, "ego": 10, "sleep": -20, "money": 50 } },
+        { "text": "Ignore. Silence is expensive.", "statEffects": { "energy": 5, "sanity": 5, "ego": -10, "sleep": 10, "money": -30 } }
+      ]
+    },
+    {
+      "id": "e2",
+      "pathId": "startup",
+      "description": "The server is melting. The investors are calling. You're selling your 20s for a 0.01% stake in a company that makes an app for dog hats. Is this the 'dream'?",
+      "choices": [
+        { "text": "Fix it. Be the hero.", "statEffects": { "energy": -25, "sanity": -20, "ego": 20, "sleep": -30, "money": 0 } },
+        { "text": "Pivot. Call it a feature.", "statEffects": { "energy": -5, "sanity": -10, "ego": 10, "sleep": 0, "money": 20 } }
+      ]
+    },
+    {
+      "id": "e3",
+      "pathId": "freelance",
+      "description": "Client wants a 'minor' revision. It's the 14th one. You're working for $3/hour now. You left your job for 'freedom', but you've never been more of a slave.",
+      "choices": [
+        { "text": "Do it. Rent is due.", "statEffects": { "energy": -15, "sanity": -15, "ego": -10, "sleep": -10, "money": 40 } },
+        { "text": "Fire them. Dignity is free.", "statEffects": { "energy": 10, "sanity": 10, "ego": 20, "sleep": 5, "money": -80 } }
+      ]
+    },
+    {
+      "id": "e4",
+      "pathId": "academic",
+      "description": "Reviewer #2 says your life's work is 'derivative'. You've spent 6 years on this. Your peers are buying houses. You're buying instant noodles.",
+      "choices": [
+        { "text": "Rewrite. Seek validation.", "statEffects": { "energy": -20, "sanity": -25, "ego": -20, "sleep": -15, "money": 0 } },
+        { "text": "Ignore. They're just jealous.", "statEffects": { "energy": -5, "sanity": 5, "ego": 10, "sleep": 0, "money": 0 } }
+      ]
+    },
+    {
+      "id": "e5",
+      "pathId": "gig",
+      "description": "The app says you're 2 minutes behind. Your rating is 4.8. If it hits 4.7, you're deactivated. You're a line of code in a spreadsheet. Move faster.",
+      "choices": [
+        { "text": "Speed up. Break laws.", "statEffects": { "energy": -15, "sanity": -10, "ego": -5, "sleep": -5, "money": 15 } },
+        { "text": "Take a break. Lose the shift.", "statEffects": { "energy": 10, "sanity": 10, "ego": 5, "sleep": 10, "money": -25 } }
+      ]
+    },
+    {
+      "id": "e6",
+      "description": "Your 4th coffee. It's cold. You're drinking it anyway because you've forgotten how to feel awake without a chemical intervention.",
+      "choices": [
+        { "text": "Drain it. Fuel the lie.", "statEffects": { "energy": 20, "sanity": -15, "ego": 5, "sleep": -15, "money": -5 } },
+        { "text": "Switch to water. Admit defeat.", "statEffects": { "energy": -15, "sanity": 10, "ego": -10, "sleep": 5, "money": 0 } }
+      ]
+    },
+    {
+      "id": "e7",
+      "description": "3:12 AM. You open your laptop again. No one asked you to. There is no deadline. You just don't know who you are when you aren't working.",
+      "choices": [
+        { "text": "Just check one thing.", "statEffects": { "energy": -10, "sanity": -25, "ego": 20, "sleep": -30, "money": 0 } },
+        { "text": "Close it (you won't).", "statEffects": { "energy": -5, "sanity": -10, "ego": -10, "sleep": -5, "money": 0 } }
+      ]
+    },
+    {
+      "id": "e10",
+      "description": "A message from someone who loves you. You haven't replied in 4 days. You told yourself you're 'too busy', but you spent 2 hours scrolling today.",
+      "choices": [
+        { "text": "Reply: 'So swamped!!'", "statEffects": { "energy": -5, "sanity": -15, "ego": 10, "sleep": 0, "money": 0 } },
+        { "text": "Archive. They'll understand.", "statEffects": { "energy": 0, "sanity": -20, "ego": 20, "sleep": 0, "money": 0 } }
+      ]
+    },
+    {
+      "id": "e11",
+      "description": "You're looking at a peer's LinkedIn. They just got promoted. You're happy for them, but mostly you just feel like a slow-motion failure.",
+      "choices": [
+        { "text": "Work harder. Surpass.", "statEffects": { "energy": -20, "sanity": -20, "ego": 40, "sleep": -10, "money": 0 } },
+        { "text": "Spiral. Refresh feed.", "statEffects": { "energy": -10, "sanity": -30, "ego": -20, "sleep": 0, "money": 0 } }
+      ]
+    },
+    {
+      "id": "e12",
+      "description": "Your back is screaming. Your eyes are burning. You haven't stood up in 6 hours. The chair is becoming part of your skeleton.",
+      "choices": [
+        { "text": "One more hour. Finish.", "statEffects": { "energy": -25, "sanity": -10, "ego": 15, "sleep": -5, "money": 20 } },
+        { "text": "Stretch. (It does nothing).", "statEffects": { "energy": 5, "sanity": 5, "ego": -5, "sleep": 0, "money": 0 } }
+      ]
+    },
+    {
+      "id": "e8",
+      "pathId": "corporate",
+      "description": "Mandatory 'Fun' Friday. Karaoke starts in 5 minutes.",
+      "choices": [
+        { "text": "Sing. Die inside.", "statEffects": { "energy": -10, "sanity": -20, "ego": -10, "sleep": 0, "money": 0 } },
+        { "text": "Hide in the bathroom.", "statEffects": { "energy": 5, "sanity": 5, "ego": -5, "sleep": 0, "money": 0 } }
+      ]
+    },
+    {
+      "id": "glitch",
+      "isGlitch": true,
+      "description": "UNEXPECTED BEHAVIOR DETECTED. SYSTEM INTEGRITY: 12%. RECOVERY IMPOSSIBLE.",
+      "choices": [
+        { "text": "CONTINUE", "statEffects": { "energy": -20, "sanity": -30, "ego": -10, "sleep": -10, "money": -50 } },
+        { "text": "OPTIMIZE FURTHER", "statEffects": { "energy": -40, "sanity": -50, "ego": 50, "sleep": -20, "money": 100 } }
+      ]
+    },
+    {
+      "id": "e9",
+      "pathId": "startup",
+      "description": "The office dog bit a VC. The series B is in jeopardy.",
+      "choices": [
+        { "text": "Blame the dog.", "statEffects": { "energy": -5, "sanity": -5, "ego": -10, "sleep": 0, "money": 0 } },
+        { "text": "Blame the VC.", "statEffects": { "energy": -10, "sanity": 10, "ego": 20, "sleep": 0, "money": -100 } }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "title": "SYSTEM_FAILURE",
+      "description": "The mind is a corrupted file. You are a ghost in the machine. Productivity: 0%."
+    },
+    {
+      "title": "ASCENSION",
+      "description": "You are the machine. Ego has consumed the self. The board is pleased."
+    },
+    {
+      "title": "DEPLETED",
+      "description": "The battery is dead. You are a hollow shell in a designer suit."
+    },
+    {
+      "title": "INSOMNIA",
+      "description": "The sun never rises. The sun never sets. Only the screen glows."
+    },
+    {
+      "title": "BANKRUPT",
+      "description": "The account is empty. The self is empty. The system discards you."
+    }
+  ],
+  "randomMessages": [
+    "Subject is leaking productivity.",
+    "Optimization required.",
+    "Sleep is a legacy feature.",
+    "Emotions detected. Suppressing...",
+    "Error: Human element found.",
+    "This was avoidable.",
+    "Processing your life choices...",
+    "Your friends are hanging out without you.",
+    "You're not as special as you think.",
+    "The system doesn't care about your 'passion'.",
+    "Is this who you wanted to be?",
+    "Your parents are getting older.",
+    "You're just a battery for a billionaire."
+  ]
+}
